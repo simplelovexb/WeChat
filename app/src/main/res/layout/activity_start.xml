@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@android:color/white"
+              >
+
+
+
+
+    <WebView
+            android:id="@+id/webview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            />
+
+
+
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+           android:layout_weight="5"
+            android:paddingBottom="20dp">
+
+
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+               >
+
+            <ImageView
+                    android:id="@+id/imageviewLogo"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/logo_start"
+                   />
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_toRightOf="@+id/imageviewLogo"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    android:text="国内领先手机开发在线学习平台"/>
+             </RelativeLayout>
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:textSize="8sp"
+                android:text="simplelovexb"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ff00"
+    android:orientation="vertical">
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button"/>
+    <ImageView
+        android:id="@+id/frg_chat_img"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:layout_weight="1"
+        />
+</LinearLayout>

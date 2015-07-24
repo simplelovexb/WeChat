@@ -1,0 +1,56 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id = "@+id/viewPager"
+        android:layout_height = "fill_parent"
+        android:layout_width = "fill_parent"/>
+
+
+
+    <RadioGroup
+        android:id="@+id/rg_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        >
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/rb_chat"
+            style="@style/radio_button_sty"
+            android:background="@drawable/selector_rb"
+            android:checked="true"
+            android:text="聊天"/>
+        <RadioButton
+            android:layout_weight="1"
+            android:id="@+id/rb_friend"
+            style="@style/radio_button_sty"
+            android:checked="false"
+            android:background="@drawable/selector_rb"
+            android:text="朋友" />
+        <RadioButton
+            android:layout_weight="1"
+            style="@style/radio_button_sty"
+            android:id="@+id/rb_moment"
+            android:checked="false"
+            android:background="@drawable/selector_rb"
+            android:text="发现"/>
+        <RadioButton
+            android:layout_weight="1"
+            style="@style/radio_button_sty"
+            android:id="@+id/rb_mine"
+            android:checked="false"
+            android:background="@drawable/selector_rb"
+            android:text="我的"/>
+    </RadioGroup>
+
+
+</RelativeLayout>
